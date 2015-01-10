@@ -34,6 +34,6 @@ NOTE: the code in JS.js is merely a template and needs to be configured to work 
 
 4.  Traverse child nodes "searchResults.children[7].children[1].children[0].children[2].children[4].innerHTML" in the correct way to get that data (ln 38/39...)  NOTE: if you are cleverer than me you can find a more elegant way to do this (get element by class name etc.)  Child node traversing happened to just be the only fail safe method for my test case website return data.
 
-5a. Add this data to the csv output html in the correct order (ln. 50/53) to match whatever order you want it to come in.
+5. Add this data to the csv output html in the correct order (ln. 50/53) to match whatever order you want it to come in.
 
-5b. Ideally this should match the order that you specify in index.html (ln. 12) so go ahead and change that too.
+6. Ideally this should match the order that you specify in index.html (ln. 12) so go ahead and change that too.
